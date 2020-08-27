@@ -30,7 +30,7 @@ steps:
       displayName: "Test"
       inputs:
         command: test
-        projects: '**/*Tests/*.csproj'
+        projects: '**/*Test/*.csproj'
         arguments: '--runtime $(buildPlatform) --configuration $(buildConfiguration)'
 
     - task: DotNetCoreCLI@2
